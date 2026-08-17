@@ -12,6 +12,7 @@ app = FastAPI(
 # Allow Frontend
 origins = [
     "http://localhost:3000",
+    "https://vision-ml-ochre.vercel.app/"
 ]
 
 app.add_middleware(
